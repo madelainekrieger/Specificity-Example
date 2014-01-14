@@ -1,0 +1,15 @@
+header > ul > li {
+    list-style: none;
+    display: inline;
+}
+
+header ul li ul {
+    display: none;
+}
+
+header ul li:hover > ul {
+    background:black;
+    color:white;
+    display:block;
+    position:absolute;
+}
